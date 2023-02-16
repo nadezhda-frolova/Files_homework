@@ -19,7 +19,7 @@ public class ParsingFiles {
     void zipParsingTest() throws Exception {
 
         try (
-                InputStream resource = cl.getResourceAsStream("files.zip");
+                InputStream resource = cl.getResourceAsStream("files1.zip");
                 ZipInputStream zis = new ZipInputStream(resource)
         ) {
             ZipEntry entry;
